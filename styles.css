@@ -1,0 +1,65 @@
+/* Stylesheet for the Rory Gallagher Tribute Page */
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #35373b;
+    color: #ffffff;
+    font-family: Arial, Verdana, Tahoma;
+}
+
+main {
+    background-color: #48552a;
+    margin: 20px 15px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    color: #0892c2;
+    margin-bottom: 0;
+}
+
+h3 {
+    padding-top: 25px;
+}
+
+p {
+    font-style: italic;
+}
+
+h1, h2, h3,  p {
+    text-align: center;
+}
+
+figure {
+    background-color: #35373b;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li > p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tribute-info {
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+}
+
